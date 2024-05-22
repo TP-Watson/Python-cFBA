@@ -9,13 +9,21 @@ Conditional Flux Balance Analysis in Python
 Introduction
 +++++++++++
 
-This ``cFBA Python toolbox`` toolbox provides a set of functions to facilitate the implementation of conditional Flux Balance Analysis (cFBA) in Python for researchers interested in predicting metabolic responses in dynamic-cyclic environments. 
+This ``cFBA Python toolbox`` toolbox provides a set of functions to facilitate 
+the implementation of conditional Flux Balance Analysis (cFBA) in Python for 
+researchers interested in predicting metabolic responses in dynamic-cyclic 
+environments. 
 
 
 What is cFBA?
 -------------
 
-cFBA is a mathematical framework [1] that integrates stoichiometric modeling, dynamic Flux Balance Analysis (dFBA), and resource allocation to study metabolism in organisms living in cyclic environments. It allows researchers to simulate and analyze metabolic reactions under changing environmental conditions, such as **day/night** cycles, **feast/famine** conditions, **aerobic/anaerobic** exchanges, etc. 
+cFBA is a mathematical framework [#Rugen2015]_ [#Reimers2017]_ that integrates 
+stoichiometric modeling, dynamic Flux Balance Analysis (dFBA), and resource 
+allocation to study metabolism in organisms living in cyclic environments. It 
+allows researchers to simulate and analyze metabolic reactions under changing 
+environmental conditions, such as **day/night** cycles, **feast/famine** 
+conditions, **aerobic/anaerobic** exchanges, etc. 
 
 
 
@@ -30,7 +38,19 @@ Key Features of cFBA
 How to Use This Documentation
 -----------------------------
 
-This documentation provides detailed instructions on how to install and use the cFBA Python toolbox. Whether you're new to cFBA or an experienced user, you'll find everything you need to get started, including installation guides, usage examples, and troubleshooting tips.
+This documentation provides detailed instructions on how to install and use the cFBA 
+Python toolbox. Whether you're new to cFBA or an experienced user, you'll find 
+everything you need to get started, including installation guides, usage examples, 
+and troubleshooting tips.
+
+
+
+References
+----------------------------------------------------------
+
+.. [#Rugen2015] Rügen, Marco, Bockmayr, Alexander, and Steuer, Ralf (2015), 'Elucidating temporal resource allocation and diurnal dynamics in phototrophic metabolism using conditional FBA', Scientific reports, 5, 15247.
+.. [#Reimers2017] Reimers, Alexandra-M, et al. (2017), 'Cellular trade-offs and optimal resource allocation during cyanobacterial diurnal growth', Proceedings of the National Academy of Sciences, 114 (31), E6457-E65.
+
 
 _____________
 
@@ -66,4 +86,11 @@ _____________
       
 
 
+.. toctree::
+   :maxdepth: 2
+   :hidden:
+   :caption: Contributions:
+   
+   Contributions & Guidelines/Contributions
+   Contributions & Guidelines/Contributing guidelines
 
