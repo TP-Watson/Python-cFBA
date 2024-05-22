@@ -1,17 +1,22 @@
 Installation
 +++++++++++++
 
-1. Clone the GitHub repository containing the cFBA Python toolbox:
-You can download it from [GitHub Link].
-Alternatively you can use the promot::
-    git clone https://github.com/your_username/your_repository.git
+1. Clone the GitHub repository containing the `py_cFBA` Python toolbox:
+   You can download it from `GitHub Link <https://github.com/TP-Watson/pycFBA>`_.
+   Alternatively, you can use the command:
+   ::
+       git clone https://github.com/TP-Watson/pycFBA.git
 
-2. Install the required packages using pip (if you don't have them yet):
-::
-    pip install python-libsbml
-    pip install optlang
+2. Navigate to the repository directory:
+   ::
+       cd pycFBA
 
-3. Once the required packages are installed, you can run the cFBA Python toolbox. The main file containing all the necessary functions is `py_cFBA.py`.
+3. Install the required packages using pip (if you don't have them yet):
+   ::
+       pip install python-libsbml
+       pip install optlang
+
+4. Once the required packages are installed, you can run the `py_cFBA` Python toolbox. The main file containing all the necessary functions is `py_cFBA.py`.
 
 
 Usage
@@ -27,8 +32,9 @@ Usage
 **Step-by-Step instructions to get started**
 
 1. Import the `py_cFBA` module into your Python environment:
-::
-    from py_cFBA import *
+   ::
+       from py_cFBA import *
+
 
 2. (Optional) Generate the basic model structure in excel using the ``cFBA_backbone_from_S_matrix`` function. It only requires an S matrix and the function will guide you to input required data.
 3. Include additional information to the model structure in excel. Parameters to fill out: w_matrix *weights*, upper and lower bounds, enzyme capacities. 
