@@ -20,7 +20,7 @@ Once this is created, you can activate said environment:
 
 If you want to work with Jupyter Notebooks you need to add this 
 environment:
-   ::
+.. ::
        conda install jupyter
        conda install ipykernel
        python -m ipykernel install --user --name env_test_cFBA --display-name "Python (env_test_cFBA)"
@@ -34,12 +34,14 @@ environment.
 
 Our package is available at PyPI, so it can be easilly installed 
 with the following command:
-   ::
-       pip install py-cfba
+.. ::
+    
+    pip install py-cfba
 
 Once this is installed correctly, you can import the 
 functions of this package simply as:
-   ::
+.. ::
+
        import py_cfba as cFBA
 
 
