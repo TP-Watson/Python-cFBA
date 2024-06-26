@@ -1,22 +1,44 @@
 Installation
 +++++++++++++
 
-1. Clone the GitHub repository containing the `py_cFBA` Python toolbox:
-   You can download it from `GitHub Link <https://github.com/TP-Watson/pycFBA>`_.
-   Alternatively, you can use the command:
-   ::
-       git clone https://github.com/TP-Watson/pycFBA.git
+**Creating your virtual environment**
 
-2. Navigate to the repository directory:
-   ::
-       cd pycFBA
+When working with Python projects, it is highly recommended to 
+use a virtual environment. Virtual environments help to:
+- Isolate dependencies
+- Avoid version conflicts
 
-3. Install the required packages using pip (if you don't have them yet):
+An environment (example: env_test_cFBA) can easilly be created:
    ::
-       pip install python-libsbml
-       pip install optlang
+       conda create --name env_test_cFBA
 
-4. Once the required packages are installed, you can run the `py_cFBA` Python toolbox. The main file containing all the necessary functions is `py_cFBA.py`.
+Once this is created, you can activate said environment:
+   ::
+       conda activate env_test_cFBA
+
+If you want to work with Jupyter Notebooks you need to add this 
+environment:
+   ::
+       conda install jupyter
+       conda install ipykernel
+       python -m ipykernel install --user --name env_test_cFBA --display-name "Python (env_test_cFBA)"
+
+
+Now you have your own custom enviornment where yo can install 
+packages, change versions, etc. without affecting your main 
+environment. 
+
+**Installation of py-cfba**
+
+Our package is available at PyPI, so it can be easilly installed 
+with the following command:
+   ::
+       pip install py-cfba
+
+Once this is installed correctly, you can import the 
+functions of this package simply as:
+   ::
+       import py_cfba as cFBA
 
 
 Usage
@@ -33,7 +55,7 @@ Usage
 
 1. Import the `py_cFBA` module into your Python environment:
    ::
-       from py_cFBA import *
+       import py_cfba as cFBA
 
 
 2. (Optional) Generate the basic model structure in excel using the ``cFBA_backbone_from_S_matrix`` function. It only requires an S matrix and the function will guide you to input required data.
