@@ -9,10 +9,12 @@ use a virtual environment. Virtual environments help to:
 - Avoid version conflicts
 
 An environment (example: env_test_cFBA) can easilly be created:
+
    ::
        conda create --name env_test_cFBA
 
 Once this is created, you can activate said environment:
+
    ::
        conda activate env_test_cFBA
 
@@ -39,6 +41,10 @@ Once this is installed correctly, you can import the
 functions of this package simply as:
    ::
        import py_cfba as cFBA
+
+   ::
+       import py_cfba as cFBA
+
 
 
 Usage
