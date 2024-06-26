@@ -32,7 +32,7 @@ Key Features of cFBA
 
 - **Dynamic Simulation:** cFBA allows for the simulation of metabolic reactions over time, capturing the dynamic behavior of biological systems.
 - **Resource Allocation:** The method considers optimal resource allocation strategies, shedding light on how organisms prioritize metabolic pathways in response to changing conditions.
-- **Ciclic behavior:** The method implements a constraint that maximizes biomass growth while maintaining the biomass composition equal at start and end point, simulating an organism adapted to cyclic environments. 
+- **Cyclic behavior:** The method implements a constraint that maximizes biomass growth while maintaining the biomass composition equal at start and end point, simulating an organism adapted to cyclic environments. 
 
 
 How to Use This Documentation
