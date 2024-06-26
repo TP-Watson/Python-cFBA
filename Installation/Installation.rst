@@ -9,19 +9,18 @@ use a virtual environment. Virtual environments help to:
 - Avoid version conflicts
 
 An environment (example: env_test_cFBA) can easilly be created:
-   ::
+.. code-block:: python
 
-       conda create --name env_test_cFBA
+    conda create --name env_test_cFBA
 
 Once this is created, you can activate said environment:
-   ::
+.. ::
 
        conda activate env_test_cFBA
 
 If you want to work with Jupyter Notebooks you need to add this 
 environment:
    ::
-    
        conda install jupyter
        conda install ipykernel
        python -m ipykernel install --user --name env_test_cFBA --display-name "Python (env_test_cFBA)"
