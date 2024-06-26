@@ -15,7 +15,7 @@ Next, a binary search algorithm is applied to find the highest achievable µ (wi
 
 The algorithm starts by attempting to solve the problem with µ = 1. Then, the following search is done: 
 
-.. image:: Methods_img8.jpg
+.. image:: Methods_img8.JPG
 
 In this case, the algorithm will run until the 'delta' value (increment between two µ values) is lower than 1e-10. This is the defined precision of the algorithm, and can be manually modified. 
 
