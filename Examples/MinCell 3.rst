@@ -2,6 +2,8 @@ MinCell 3
 +++++++++
 
 The code for this example is available in our main GitHub repository.
+https://github.com/TP-Watson/py_cFBA
+
 We continue with the simple toy model of a minimal cell, with some 
 modifications. In this case, three separate enzymes will be considered,
 each catalysing a different reaction. A schematic of the model indicating 

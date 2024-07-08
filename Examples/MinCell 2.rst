@@ -2,6 +2,7 @@ MinCell 2
 +++++++++
 
 The code for this example is available in our main GitHub repository.
+https://github.com/TP-Watson/py_cFBA
 We continue with the simple toy model of a minimal cell. This is the same 
 example that is presented in our article [1]. A schematic of the model 
 with its corresponding S matrix can be seen in the following scheme:
